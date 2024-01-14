@@ -24,7 +24,7 @@ const Protected = ({ children, authentication = true }) => {
 }
 
 Protected.propTypes = {
-  children: PropTypes.elementType,
+  children: PropTypes.object,
   authentication: PropTypes.bool
 }
 
