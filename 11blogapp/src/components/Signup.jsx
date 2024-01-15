@@ -12,7 +12,7 @@ const Signup = () => {
   const navigate = useNavigate()
   const [error, setError] = useState('')
   const dispatch = useDispatch()
-  const { register, handleSubmit } = useForm
+  const { register, handleSubmit } = useForm()
 
   const create = async (data) => {
     setError('')
